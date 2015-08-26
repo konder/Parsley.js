@@ -1,7 +1,7 @@
 /*!
 * Parsleyjs
 * Guillaume Potier - <guillaume@wisembly.com>
-* Version 2.2.0-rc1 - built Wed Aug 26 2015 16:20:52
+* Version 2.2.0-rc1 - built Wed Aug 26 2015 16:57:24
 * MIT Licensed
 *
 */
@@ -399,7 +399,7 @@
   var ParsleyValidatorRegistry = function (validators, catalog) {
     this.__class__ = 'ParsleyValidatorRegistry';
     // Default Parsley locale is en
-    this.locale = 'en';
+    this.locale = 'zh_cn';
     this.init(validators || {}, catalog || {});
   };
   var typeRegexes =  {
