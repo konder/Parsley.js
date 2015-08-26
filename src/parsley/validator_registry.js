@@ -7,7 +7,7 @@ define('parsley/validator_registry', [
     this.__class__ = 'ParsleyValidatorRegistry';
 
     // Default Parsley locale is en
-    this.locale = 'en';
+    this.locale = 'zh_cn';
 
     this.init(validators || {}, catalog || {});
   };
