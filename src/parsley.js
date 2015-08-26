@@ -28,7 +28,8 @@ define([
   // Tiny Parsley Pub / Sub mechanism, used for `ParsleyUI` and Listeners
   'parsley/pubsub',
   // Default en constraints messages
-  'i18n/en'
+  'i18n/en',
+  'i18n/zh_cn',
 ], function (ParsleyUtils, ParsleyDefaults, ParsleyAbstract, ParsleyValidatorRegistry, ParsleyUI, ParsleyForm, ParsleyField, ParsleyMultiple, ParsleyFactory) {
 
   // Inherit `on`, `off` & `trigger` to Parsley:
